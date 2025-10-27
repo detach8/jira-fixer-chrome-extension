@@ -1,4 +1,4 @@
-const spans = document.querySelectorAll("span");
+const spans = document.querySelectorAll("nav span");
 spans.forEach((element) => {
   renameSpacesAsProjects(element);
 });
