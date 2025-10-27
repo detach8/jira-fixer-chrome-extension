@@ -7,6 +7,8 @@
     {
       "matches": [
         "https://*.atlassian.net/jira/*",
+        "https://*.atlassian.net/issues/*",
+        "https://*.atlassian.net/browse/*",
         "https://*.atlassian.net/plugins/*"
       ],
       "js": [
