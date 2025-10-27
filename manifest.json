@@ -1,0 +1,19 @@
+{
+  "name": "Jira Fixer by JLEE",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Fixes bad Atlassian UI/UX decisions.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.atlassian.net/jira/*",
+        "https://*.atlassian.net/plugins/*"
+      ],
+      "js": [
+        "jira-fixer.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
