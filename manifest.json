@@ -1,5 +1,5 @@
 {
-  "name": "Jira Fixer by JLEE",
+  "name": "Jira Fixer",
   "version": "1.0",
   "manifest_version": 3,
   "description": "Fixes bad Atlassian UI/UX decisions.",
